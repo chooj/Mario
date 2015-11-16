@@ -1,1 +1,1 @@
-# Endless Mario game for Processing.
+# Endless Mario game for Processing.  Requires images.
