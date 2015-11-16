@@ -76,7 +76,9 @@ void death() {
 void reset() {
   xPos = 0;
   ux = 0;
-  highScore = score;
+  if (score > highScore) {
+    highScore = score;
+  }
   frame = 60;
   score = 0;
   goombasKilled = 0;
